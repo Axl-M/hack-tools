@@ -5,8 +5,10 @@ version for python 2x and python 3x
 **DESCRIPTION**
 Util for changing MAC address for specified interface using Linux commands.
 
+
 use:
- macchanger --help   for more info
+
+macchanger --help   for more info
  options:
   -i, --interface     Interface to change its MAC address
   -m, --mac           New MAC address
