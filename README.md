@@ -24,3 +24,6 @@ As result you can see IP-addresses who are in our network and their MAC-addresse
 You must have scapy installed. Scapy not installed in python3. (Use command:  pip3 install scapy-python3).
 Be sure that you have scapy installed in the same version of python you are going
 to use for this util (python2 or python3).
+./network_scanner.py -t 10.0.2.0/24  
+-t  -target
+and specify IP-adress or range
