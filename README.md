@@ -2,7 +2,7 @@
 
 MAC_CHANGER - 
 version for python 2x and python 3x
-DESCRIPTION
+**DESCRIPTION**
 Util for changing MAC address for specified interface using Linux commands.
 
 use:
