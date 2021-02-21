@@ -26,5 +26,6 @@ Be sure that you have scapy installed in the same version of python you are goin
 to use for this util (python2 or python3).
 
 ./network_scanner.py -t 10.0.2.0/24
+
 -t  -target
 and specify IP-adress or range
