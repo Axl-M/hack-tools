@@ -47,3 +47,8 @@ to use for this util (python2 or python3).
 
 -t  -target
 and specify IP-adress or range
+
+#ARP_SPOOF - for MITM attack.
+
+#PACKET_SNIFER - to capture URLs, passwords, logins from trafic.
+
