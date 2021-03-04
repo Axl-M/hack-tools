@@ -1,23 +1,39 @@
 # hack-tools
+# ethical-hacking
+Ethical Hacking Scripts in Python and Shell for OSX / Linux
 
 MAC_CHANGER - 
 version for python 2x and python 3x
 **DESCRIPTION**
+
 Util for changing MAC address for specified interface using Linux commands.
 
 
-use:
+Usage:
+
+```sh
+    $ python3 macchanger.py -i <interface> -m <mac>
+```  
+
 
 macchanger --help   for more info
+
  options:
+ 
   -i, --interface     Interface to change its MAC address
+  
   -m, --mac           New MAC address
+  
   -m r                Generate random MAC address
+  
 EXAMPLES:
+
 ./macchanger.py -i eth0 -m 00:01:02:03:04:77
+
 or
+
 ./macchanger.py -i eth0 -m r
-================================================================================
+
 
 NETWORK SCANNER
 This util is similar netdiscover util.
